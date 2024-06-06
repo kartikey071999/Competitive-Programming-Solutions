@@ -1,4 +1,5 @@
 <h1 align="center">LeetCode Solutions by Kartikey Gupta</h1>
+<h1 align="center">LeetCode Solutions by Kartikey Gupta</h1>
 
 <p align="center">
   <a href="https://leetcode.com/u/kartikey071999/">
