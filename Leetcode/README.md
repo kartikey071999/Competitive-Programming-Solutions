@@ -14,6 +14,5 @@
 Hi, I'm Kartikey Gupta, a passionate programmer and competitive coding enthusiast. I enjoy solving complex problems and continuously improving my skills.
 
 <p align="center">
-  <!-- Replace the src URL with a valid dynamic stats image URL if available -->
   <img src="https://via.placeholder.com/400x200?text=LeetCode+Stats" alt="LeetCode Stats">
 </p>
