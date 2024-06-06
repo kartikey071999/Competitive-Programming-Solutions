@@ -8,15 +8,14 @@ I'm a passionate competitive programmer and software developer.
 
 ### Connect with me:
 
-[<img align="left" alt="LeetCode" width="22px" src="https://img.shields.io/badge/-KartikeyGupta-%232c3e50?style=flat-square&logo=leetcode&logoColor=white&link=https://leetcode.com/u/kartikey071999/" />](https://leetcode.com/u/kartikey071999/)
+[<img align="left" alt="LeetCode" width="200px" src="https://img.shields.io/badge/-KartikeyGupta-%232c3e50?style=flat-square&logo=leetcode&logoColor=white&link=https://leetcode.com/u/kartikey071999/" />](https://leetcode.com/u/kartikey071999/)
 
 <br />
 <br />
 
 ---
 
-<!-- GitHub Streak Stats -->
-## 📈 GitHub Streak Stats
+<!-- LeetCode Streak Badge -->
+## 🚀 LeetCode Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=kartikey071999)](https://git.io/streak-stats)
-
+![Leetcode Stats](https://leetcard.jacoblin.cool/kartikey071999)
