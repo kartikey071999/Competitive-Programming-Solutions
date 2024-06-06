@@ -1,4 +1,4 @@
-<h1 align="center">LeetCode Solutions by Kartikey Sharma</h1>
+<h1 align="center">LeetCode Solutions by Kartikey Gupta</h1>
 
 <p align="center">
   <a href="https://leetcode.com/u/kartikey071999/">
@@ -13,6 +13,6 @@
 Hi, I'm Kartikey Gupta, a passionate programmer and competitive coding enthusiast. I enjoy solving complex problems and continuously improving my skills.
 
 <p align="center">
-  <img src="https://leetcode-stats-api.herokuapp.com/u/kartikey071999" alt="LeetCode Stats">
+  <!-- Replace the src URL with a valid dynamic stats image URL if available -->
+  <img src="https://via.placeholder.com/400x200?text=LeetCode+Stats" alt="LeetCode Stats">
 </p>
-
