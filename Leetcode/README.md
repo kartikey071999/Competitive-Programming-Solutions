@@ -1,4 +1,4 @@
-<h1 align="center">LeetCode Solutions by Kartikey Sharma</h1>
+<h1 align="center">LeetCode Solutions by Kartikey Gupta</h1>
 
 <p align="center">
   <a href="https://leetcode.com/u/kartikey071999/">
@@ -15,4 +15,3 @@ Hi, I'm Kartikey Gupta, a passionate programmer and competitive coding enthusias
 <p align="center">
   <img src="https://leetcode-stats-api.herokuapp.com/u/kartikey071999" alt="LeetCode Stats">
 </p>
-
