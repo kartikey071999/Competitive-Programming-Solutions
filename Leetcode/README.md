@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Streak Stats</title>
+    <title>Kartikey Gupta's GitHub Streak Stats</title>
     <style>
-        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #streakStatsContainer {
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        #streakStatsContainer img {
+            width: 100%;
+            display: block;
+        }
+
+        p {
+            color: #666;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -13,6 +54,7 @@
     <div id="streakStatsContainer">
         <!-- Streak stats will be dynamically inserted here -->
     </div>
+    <p>Check out my <a href="https://leetcode.com/KartikeyGupta" target="_blank">LeetCode profile</a> for more coding adventures!</p>
 
     <script>
         // Function to fetch GitHub streak stats
