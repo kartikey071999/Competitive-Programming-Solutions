@@ -19,3 +19,4 @@ I'm a passionate competitive programmer and software developer.
 ## 🚀 LeetCode Streak
 
 ![Leetcode Stats](https://leetcard.jacoblin.cool/kartikey071999)
+![](https://leetcard.jacoblin.cool/kartikey071999?ext=heatmap)
