@@ -1,19 +1,49 @@
-<h1 align="center">LeetCode Solutions by Kartikey Gupta</h1>
-<h1 align="center">LeetCode Solutions by Kartikey Gupta</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Streak Stats</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>Welcome, Kartikey Gupta!</h1>
+    <div id="streakStatsContainer">
+        <!-- Streak stats will be dynamically inserted here -->
+    </div>
 
-<p align="center">
-  <a href="https://leetcode.com/u/kartikey071999/">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-orange" alt="LeetCode Profile">
-  </a>
-</p>
+    <script>
+        // Function to fetch GitHub streak stats
+        async function fetchGitHubStreakStats(username) {
+            const response = await fetch(`https://streak-stats.demolab.com/?user=${username}`);
+            const data = await response.json();
+            return data;
+        }
 
-<p align="center">Welcome to my collection of LeetCode solutions. Here, you'll find my approaches to solving a variety of problems, categorized by difficulty.</p>
+        // Function to display streak stats on the webpage
+        async function displayStreakStats() {
+            const username = "KartikeyGupta"; // Your GitHub username
+            const streakStatsContainer = document.getElementById("streakStatsContainer");
 
-## About Me
+            try {
+                const streakStats = await fetchGitHubStreakStats(username);
+                // Create HTML elements to display streak stats
+                const streakStatsElement = document.createElement("img");
+                streakStatsElement.src = streakStats.url; // Assuming the API returns a URL to the streak stats image
+                streakStatsElement.alt = "GitHub Streak Stats";
 
-Hi, I'm Kartikey Gupta, a passionate programmer and competitive coding enthusiast. I enjoy solving complex problems and continuously improving my skills.
+                // Append streak stats element to container
+                streakStatsContainer.appendChild(streakStatsElement);
+            } catch (error) {
+                console.error("Error fetching streak stats:", error);
+                streakStatsContainer.textContent = "Error fetching streak stats.";
+            }
+        }
 
-<p align="center">
-  <!-- Replace the src URL with a valid dynamic stats image URL if available -->
-  <img src="https://via.placeholder.com/400x200?text=LeetCode+Stats" alt="LeetCode Stats">
-</p>
+        // Call the function to display streak stats when the page loads
+        window.onload = displayStreakStats;
+    </script>
+</body>
+</html>
